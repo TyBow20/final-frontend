@@ -64,6 +64,11 @@
   cursor: pointer;
 }
 
+.pokemon-card--shiny {
+  border: 2px solid gold;
+  background-color: #fffbe6;
+}
+
 .modal {
   position: fixed;
   top: 0;
