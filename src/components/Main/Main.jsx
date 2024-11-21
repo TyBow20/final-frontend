@@ -285,7 +285,7 @@ const Main = () => {
         <p className="main__no-results">
           No Pokémon found. Start your search above to catch one!
           <br />
-          If you're lucky, you might find a shiny! ✨
+          If you're lucky, you might find a Shiny! ✨
         </p>
       )}
 
