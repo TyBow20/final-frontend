@@ -1,6 +1,6 @@
-# React + Vite
-
 # Pokémon App - PokéDex
+
+https://tybow20.github.io/final-frontend/
 
 Welcome to the **Pokémon App**! This application allows users to search for Pokémon, view details about each Pokémon in an interactive modal, and discover the rare shiny Pokémon variants. Built with React, it offers a sleek and modern UI with responsive design.
 
