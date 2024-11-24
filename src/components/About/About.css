@@ -1,0 +1,29 @@
+.about {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.about a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about a:hover {
+  text-decoration: underline;
+}

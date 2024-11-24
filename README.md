@@ -1,6 +1,22 @@
-# React + Vite
+# Pokémon App - PokéDex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://tybow20.github.io/final-frontend/
+
+Welcome to the **Pokémon App**! This application allows users to search for Pokémon, view details about each Pokémon in an interactive modal, and discover the rare shiny Pokémon variants. Built with React, it offers a sleek and modern UI with responsive design.
+
+## Features
+
+- **Search Pokémon**: Search by name to find your favorite Pokémon.
+- **Shiny Pokémon**: A 10% chance to find a shiny version of any Pokémon.
+- **Detailed Pokémon Modal**: Click on a Pokémon to view its stats and image in a modal.
+- **Interactive Animations**: Hover over cards to see tilt animations and shadows.
+- **Responsive Design**: Optimized for desktop and tablet.
+
+## Technologies Used
+
+- **Frontend**: React, React Router
+- **Styling**: CSS (BEM methodology)
+- **Data Fetching**: `fetch` API
 
 Currently, two official plugins are available:
 
