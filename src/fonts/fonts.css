@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+  src: url("/src/fonts/Roboto-Regular.ttf") format("woff2"),
     url("../fonts/Roboto-Regular.woff") format("woff"),
     url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
@@ -13,7 +13,27 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+  src: url("/src/fonts/Roboto-Bold.ttf") format("woff2"),
     url("../fonts/Roboto-Bold.woff") format("woff"),
-    url("../fonts/Roboto-Bold.ttf") format("truetype");
+    url("/src/fonts/Roboto-Bold.ttf") format("truetype");
 }
+
+/* @font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Roboto-Regular.woff2") format("woff2"),
+    url("./Roboto-Regular.woff") format("woff"),
+    url("./Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Roboto-Bold.woff2") format("woff2"),
+    url("./Roboto-Bold.woff") format("woff"),
+    url("./Roboto-Bold.ttf") format("truetype");
+} */
