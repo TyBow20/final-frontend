@@ -41,7 +41,7 @@
   object-fit: cover;
 }
 
-.pokemon-card__shadow {
+/* .pokemon-card__shadow {
   content: "";
   position: absolute;
   bottom: -20px;
@@ -57,6 +57,24 @@
   border-radius: 50%;
   z-index: -1;
   transition: transform 0.2s ease, opacity 0.2s ease;
+} */
+
+.pokemon-card__shadow {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 8px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Light shadow for dark background */
+  border-radius: 50%;
+  filter: blur(5px);
+  z-index: -1;
 }
 
 .pokemon-card:hover .pokemon-card__shadow {
